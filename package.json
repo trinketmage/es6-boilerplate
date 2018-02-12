@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "babel": "babel --presets es2015 src/main.js -o build/bundle.js",
-    "watch": "webpack --watch & http-server ./"
+    "start": "http-server ./",
+    "watch": "webpack --watch & http-server ./",
+    "build": "babel --presets es2015 src/main.js -o build/bundle.js"
   },
   "author": "",
   "license": "ISC",
